@@ -1,0 +1,40 @@
+Filter-Regex
+SYNOPSIS
+    Searches input content for lines matching a specified regex pattern.
+
+SYNTAX
+    Filter-Regex [-RegexPattern] <string> [<CommonParameters>]
+
+DESCRIPTION
+    This function searches through input content for lines that match a given regex pattern.
+    The content can be piped to this function from commands like Get-Content or Import-Csv.
+
+PARAMETERS
+    -RegexPattern <string>
+        The regular expression pattern to search for within the content.
+        Required?                    true
+        Position?                    named
+        Accept pipeline input?       true
+        Parameter set name           (All)
+        Aliases                      None
+
+    <CommonParameters>
+        This cmdlet supports the common parameters: Verbose, Debug,
+        ErrorAction, ErrorVariable, WarningAction, WarningVariable,
+        OutBuffer, PipelineVariable, and OutVariable.
+
+EXAMPLES
+    -------------------------- EXAMPLE 1 --------------------------
+
+    Get-Content "C:\Path\To\File.txt" | Filter-Regex -RegexPattern "\blogo\b"
+
+    This command searches the specified file for lines containing the word "logo".
+
+    -------------------------- EXAMPLE 2 --------------------------
+
+    Import-Csv "C:\Path\To\File.csv" | Select-Object -ExpandProperty SomeColumn | Filter-Regex -RegexPattern "\bexample\b"
+
+    This command searches through the specified column in the CSV content for lines containing the word "example".
+
+RELATED LINKS
+    https://github.com/kalichuza/Regex-Filter
