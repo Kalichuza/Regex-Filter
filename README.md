@@ -15,4 +15,4 @@ To install the module, copy the `Regex-Filter` folder to one of your PowerShell 
 ### Example 1: Search a File’s Content
 
 ```powershell
-Get-Content "C:\Path\To\File.txt" | Filter-Regex -RegexPattern "\blogo\b"
+Get-Content "C:\Path\To\File.txt" | Use-Regex -RegexPattern "\blogo\b"
