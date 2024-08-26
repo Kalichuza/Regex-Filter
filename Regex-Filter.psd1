@@ -48,7 +48,7 @@
     LicenseUri = 'https://www.gnu.org/licenses/gpl-3.0.en.html'
 
     # Release Notes for this module
-    ReleaseNotes = 'Initial release of the Regex-Filter module.'
+    ReleaseNotes = 'Update release of the Regex-Filter module.'
 
     # External files
     ExternalModuleDependencies = @()
