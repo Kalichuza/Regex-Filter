@@ -17,4 +17,4 @@ function Filter-Regex {
     }
 }
 
-Export-ModuleMember -Function Filter-Regex
+Export-ModuleMember -Function Use-Regex

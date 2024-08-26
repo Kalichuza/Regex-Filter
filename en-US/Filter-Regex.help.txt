@@ -26,13 +26,13 @@ PARAMETERS
 EXAMPLES
     -------------------------- EXAMPLE 1 --------------------------
 
-    Get-Content "C:\Path\To\File.txt" | Filter-Regex -RegexPattern "\blogo\b"
+    Get-Content "C:\Path\To\File.txt" | Use-Regex -RegexPattern "\blogo\b"
 
     This command searches the specified file for lines containing the word "logo".
 
     -------------------------- EXAMPLE 2 --------------------------
 
-    Import-Csv "C:\Path\To\File.csv" | Select-Object -ExpandProperty SomeColumn | Filter-Regex -RegexPattern "\bexample\b"
+    Import-Csv "C:\Path\To\File.csv" | Select-Object -ExpandProperty SomeColumn | Use-Regex -RegexPattern "\bexample\b"
 
     This command searches through the specified column in the CSV content for lines containing the word "example".
 
