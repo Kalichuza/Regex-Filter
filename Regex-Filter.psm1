@@ -1,6 +1,6 @@
 # Regex-Filter.psm1
 
-function Filter-Regex {
+function Use-Regex {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory = $true)]
@@ -17,4 +17,4 @@ function Filter-Regex {
     }
 }
 
-Export-ModuleMember -Function Filter-Regex
+Export-ModuleMember -Function Use-Regex
