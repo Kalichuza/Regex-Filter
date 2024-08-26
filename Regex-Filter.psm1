@@ -1,6 +1,6 @@
 # Regex-Filter.psm1
 
-function Filter-Regex {
+function Use-Regex {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory = $true)]
