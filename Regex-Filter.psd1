@@ -42,16 +42,16 @@
     PrivateData = @{}
 
     # Help info URI
-    HelpInfoURI = 'https://github.com/kalichuza/Regex-Filter'
+    #HelpInfoURI = 'https://github.com/kalichuza/Regex-Filter'
 
     # License for this module
-    LicenseUri = 'https://www.gnu.org/licenses/gpl-3.0.en.html'
+    #LicenseUri = 'https://www.gnu.org/licenses/gpl-3.0.en.html'
 
     # Release Notes for this module
-    ReleaseNotes = 'Update release of the Regex-Filter module.'
+    #ReleaseNotes = 'Update release of the Regex-Filter module.'
 
     # External files
-    ExternalModuleDependencies = @()
+    #ExternalModuleDependencies = @()
 
     # Required assemblies
     RequiredAssemblies = @()
